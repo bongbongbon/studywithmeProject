@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Vue Form Submission</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+
+<div id="app">
+  <form @submit.prevent="submitForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" v-model="formData.name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" v-model="formData.email">
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<script>
+  new Vue({
+      el: '#app',
+      data: {
+          formData: {
+              name: '',
+              email: ''
+          }
+      },
+      methods: {
+          submitForm() {
+              // JSON 형식으로 폼 데이터 변환
+              const jsonData = JSON.stringify(this.formData);
+
+              // JSON 데이터를 서버로 보내는 예시 (여기서는 콘솔에 출력)
+              console.log('Sending JSON data:', jsonData);
+
+              // 이후에는 실제 서버로 데이터를 전송할 수 있습니다.
+              // 예를 들어 axios 또는 fetch API를 사용하여 서버로 데이터를 보낼 수 있습니다.
+          }
+      }
+  });
+</script>
+
+</body>
+</html>
