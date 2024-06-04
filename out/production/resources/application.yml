@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: local
+    active: blue
     group:
       local: local, common, secret
       blue: blue, common, secret
@@ -32,7 +32,7 @@ spring:
       on-profile: blue
 
 server:
-  port: 8080
+  port: 8881
   serverAddress: 43.200.95.124
 
 serverName: blue_server
@@ -45,7 +45,7 @@ spring:
       on-profile: green
 
 server:
-  port: 8081
+  port: 8882
   serverAddress: 43.200.95.124
 
 serverName: green_server
