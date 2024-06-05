@@ -17,6 +17,4 @@
 ## 프로젝트 구조
 
 
-<p align="center">
-  <img src="[https://github.com/bongbongbon/studywithmeProject/issues/3](https://github.com/bongbongbon/studywithmeProject/issues/3)">
-</p>
+https://github.com/bongbongbon/studywithmeProject/issues/3
