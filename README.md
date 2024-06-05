@@ -13,3 +13,6 @@
 - docker, git action, nginx 를 이용해서 blue, green CICD 무중단 배포 프리티어 ec2 튕김현상 때문에 기능이 없는 프로젝트로 테스트 시도 https://github.com/bongbongbon/CICDTEST 
 - 스터디그룹을 만들고 팀을 모집하는 기능
 - 팀안에서 질문하고 대답하는 기능
+
+🛠️ Backend Tech Stack
+[ec2.pdf](https://github.com/user-attachments/files/15581084/ec2.pdf)
