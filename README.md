@@ -18,5 +18,5 @@
 
 
 <p align="center">
-  <img src="https://github.com/bongbongbon/studywithmeProject/issues/3">
+  <img src="[https://github.com/bongbongbon/studywithmeProject/issues/3](https://github.com/bongbongbon/studywithmeProject/issues/3)">
 </p>
