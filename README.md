@@ -18,5 +18,5 @@
 
 
 <p align="center">
-  <img src="이미지URL">
+  <img src="https://github.com/user-attachments/files/15583076/ec2.pdf">
 </p>
