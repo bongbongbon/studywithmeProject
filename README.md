@@ -14,5 +14,7 @@
 - 스터디그룹을 만들고 팀을 모집하는 기능
 - 팀안에서 질문하고 대답하는 기능
 
-🛠️ Backend Tech Stack
-[ec2.pdf](https://github.com/user-attachments/files/15581084/ec2.pdf)
+## 프로젝트 구조
+
+
+[ec2.pdf](https://github.com/user-attachments/files/15581274/ec2.pdf)
