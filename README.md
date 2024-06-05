@@ -18,5 +18,5 @@
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/files/15583076/ec2.pdf">
+  <img src="[https://github.com/user-attachments/files/15583076/ec2.pdf](https://github.com/bongbongbon/studywithmeProject/issues/2)">
 </p>
