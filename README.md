@@ -17,5 +17,6 @@
 ## 프로젝트 구조
 
 
-
-[ec2.pdf](https://github.com/user-attachments/files/15581579/ec2.pdf)
+<p align="center">
+  <img src="이미지URL">
+</p>
