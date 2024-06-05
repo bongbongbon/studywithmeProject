@@ -18,6 +18,7 @@
 
 
 ![ec2](https://github.com/bongbongbon/studywithmeProject/assets/106155992/d92003f0-e827-49f9-a5ff-e7ac0f972a3c)
+![ec2 (1)](https://github.com/bongbongbon/studywithmeProject/assets/106155992/78f3a016-294d-4ad9-a6d3-dca02f09955e)
 
 
 
