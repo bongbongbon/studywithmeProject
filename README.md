@@ -18,3 +18,7 @@
 
 
 ![ec2](https://github.com/bongbongbon/studywithmeProject/assets/106155992/d92003f0-e827-49f9-a5ff-e7ac0f972a3c)
+
+
+
+<img width="1088" alt="스크린샷 2024-06-05 오후 4 52 17" src="https://github.com/bongbongbon/studywithmeProject/assets/106155992/29980ff0-eab1-4b31-b154-605768814166">
