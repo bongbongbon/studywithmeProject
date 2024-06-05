@@ -10,6 +10,6 @@
 
 
 - jwt로그인 구현 및 redis를 통해서 jwt refresh 구현
-- docker, git action, nginx 를 이용해서 blue, green 무중단 배포
+- docker, git action, nginx 를 이용해서 blue, green 무중단 배포 -> 프리티어 ec2 튕김 관계로 테스트 시도 https://github.com/bongbongbon/CICDTEST 
 - 스터디그룹을 만들고 팀을 모집하는 기능
 - 팀안에서 질문하고 대답하는 기능
