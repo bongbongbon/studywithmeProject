@@ -17,4 +17,5 @@
 ## 프로젝트 구조
 
 
-![https://github.com/user-attachments/files/15581274/ec2.pdf]
+
+[ec2.pdf](https://github.com/user-attachments/files/15581579/ec2.pdf)
