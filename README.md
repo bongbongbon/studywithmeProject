@@ -30,3 +30,9 @@
 
 
 - java 17
+- springboot 3.3.0
+- jpa
+- redis
+- mysql
+- nginx
+- github action
