@@ -45,6 +45,7 @@ public class StudyBoardEntity extends BaseEntity {
 
     @OneToMany(mappedBy = "studyBoard")
     @ToString.Exclude
+    @Builder.Default
     private List<ReplyEntity> replyList = new ArrayList<>();
 
 

@@ -41,6 +41,7 @@ public class QuestionEntity extends BaseEntity{
 
     @OneToMany(mappedBy = "question", cascade = CascadeType.ALL, orphanRemoval = true)
     @ToString.Exclude
+    @Builder.Default
     private List<AnswerEntity> answerList = new ArrayList<>();
 
     public static QuestionResponse toResponse(QuestionEntity question) {

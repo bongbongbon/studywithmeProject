@@ -48,14 +48,17 @@ public class UserEntity extends BaseEntity{
 
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
     @ToString.Exclude
+    @Builder.Default
     private List<StudyBoardEntity> studyBoardEntityList = new ArrayList<>();
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.MERGE)
     @ToString.Exclude
+    @Builder.Default
     private List<TeamEntity> teamList = new ArrayList<>();
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     @ToString.Exclude
+    @Builder.Default
     private List<TeamUserEntity> teamUserList = new ArrayList<>();
 
     public static UserResponse toResponse(UserEntity userEntity) {

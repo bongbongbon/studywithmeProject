@@ -47,6 +47,7 @@ public class ReplyEntity extends BaseEntity{
 
     @OneToMany(mappedBy = "reply")
     @ToString.Exclude
+    @Builder.Default
     private List<RereplyEntity> rereplyList = new ArrayList<>();
 
     public static ReplyResponse toResponse(ReplyEntity reply) {

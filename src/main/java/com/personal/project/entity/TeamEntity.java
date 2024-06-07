@@ -57,10 +57,12 @@ public class TeamEntity extends BaseEntity{
 
     @OneToMany(mappedBy = "team", cascade = CascadeType.ALL, orphanRemoval = true)
     @ToString.Exclude
+    @Builder.Default
     private List<TeamUserEntity> teamUserList = new ArrayList<>();
 
     @OneToMany(mappedBy = "team", cascade = CascadeType.ALL, orphanRemoval = true)
     @ToString.Exclude
+    @Builder.Default
     private List<QuestionEntity> questionList = new ArrayList<>();
 
     @Column(columnDefinition = "integer default 0", nullable = false)
