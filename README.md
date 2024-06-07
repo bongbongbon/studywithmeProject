@@ -11,7 +11,7 @@
 
 - jwt로그인 구현 및 redis timeToLive를 통해서 jwt refreshToken 구현
 - docker, git action, nginx 를 이용해서 blue, green CICD 무중단 배포
-  (프리티어 이기 때문에 cpu 사양이 부족해 swap 메모리 활용)
+  (프리티어 cpu 사양이 부족해 swap 메모리 활용)
 - 스터디그룹을 만들고 팀을 모집하는 기능
 - 팀안에서 질문하고 대답하는 기능
 
