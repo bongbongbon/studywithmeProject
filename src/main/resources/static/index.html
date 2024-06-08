@@ -3,6 +3,7 @@
 <head>
   <title>Vue Form Submission</title>
   <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
 
@@ -23,20 +24,27 @@
       el: '#app',
       data: {
           formData: {
-              name: '',
-              email: ''
+              username: '',
+              password: ''
           }
       },
       methods: {
           submitForm() {
-              // JSON 형식으로 폼 데이터 변환
-              const jsonData = JSON.stringify(this.formData);
 
-              // JSON 데이터를 서버로 보내는 예시 (여기서는 콘솔에 출력)
-              console.log('Sending JSON data:', jsonData);
+                    const jsonData = JSON.stringify(this.formData);
 
-              // 이후에는 실제 서버로 데이터를 전송할 수 있습니다.
-              // 예를 들어 axios 또는 fetch API를 사용하여 서버로 데이터를 보낼 수 있습니다.
+                    // axios를 사용하여 서버로 데이터 전송
+                    axios.post('http://43.200.95.124/login', jsonData, {
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    })
+                    .then(response => {
+                        console.log('Response:', response.data);
+                    })
+                    .catch(error => {
+                        console.error('There was an error!', error);
+                    });
           }
       }
   });
